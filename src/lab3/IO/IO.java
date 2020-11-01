@@ -80,7 +80,7 @@ public class IO {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите название файла: ");
         String fileName = in.nextLine();
-        return "..\\test\\"+fileName + ".txt";
+        return "file\\" + fileName + ".txt";
     }
     
     public static String[] inputStringArrayFromConsole() {
